@@ -37,7 +37,7 @@ jobs:
         
       # Rename jar
       - name: Rename jar
-        run: mv  App/orders-service/target/orders-service-example-0.0.1-SNAPSHOT.jar App/orders-service/ms-orders-service.jar
+        run: mv  App/orders-service/target/orders-service-example-0.0.1-SNAPSHOT-spring-boot.jar App/orders-service/ms-orders-service.jar
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
