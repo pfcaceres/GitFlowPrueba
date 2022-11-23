@@ -30,8 +30,8 @@ jobs:
           java-version: '11'
           distribution: 'adopt'
       - name: Build with Maven
-        run: pwd
-        #  run: mvn --batch-mode --update-snapshots package
+        run: mvn -f App/pom.xml clean package
+        #run: mvn --batch-mode --update-snapshots package
         
       # Runs a single command using the runners shell
       - name: Run a one-line script
