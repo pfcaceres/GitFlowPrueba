@@ -36,9 +36,9 @@ jobs:
       - name: Ruta
         run: pwd
       - name: Copy de jar
-        run: mkdir jarFile && cp target/*.jar jarFile
+        run: mkdir jarFile && cp App/orders-service/target/*.jar jarFile
       - uses: actions/upload-artifact@v3
         with:
-          name: Package
+          name: order-service.jar
           path: jarFile
         
