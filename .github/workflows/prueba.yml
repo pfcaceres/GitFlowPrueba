@@ -35,10 +35,8 @@ jobs:
         run: mvn -f App/orders-service/pom.xml clean package
       - name: Ruta
         run: pwd
-        
       - name: Copy de jar
-             mkdir jarFile && cp target/*.jar jarFile
-      
+        run: mkdir jarFile && cp target/*.jar jarFile
       - uses: actions/upload-artifact@v3
         with:
           name: Package
