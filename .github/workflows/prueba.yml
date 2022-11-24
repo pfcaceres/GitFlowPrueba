@@ -37,11 +37,12 @@ jobs:
         run: pwd
       - name: Copy de jar
         run: |
-            mkdir jarFile && cp App/orders-service/target/*.jar jarFile
+            mkdir jarFile && cp App/orders-service/target/*SNAPSHOT.jar jarFile
             ls -l jarFile
       
       - uses: actions/upload-artifact@v3
         with:
+          ref: Develop
           name: orders-service.jar
           path: jarFile
         
