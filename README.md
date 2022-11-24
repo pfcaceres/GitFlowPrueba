@@ -1,4 +1,11 @@
-# OBLIGATORIO - 2022S2-GT-PFCACERES-MGARCIA
+# OBLIGATORIO - Certificado DEVOPS - ORT - S2 2022
+
+## Grupo 2022S2-GT-PFCACERES-MGARCIA
+### Integrantes
+####  Pablo Caceres
+####  Mario Garcia
+
+
 
 ## Problema
 
