@@ -32,8 +32,9 @@ jobs:
           java-version: '11'
           distribution: 'adopt'
       - name: Build with Maven
-        run: mvn App/orders-service/pom.xml --batch-mode --update-snapshots order-service.jar
-      #  run: mvn -f App/orders-service/pom.xml clean package
+        run: mvn -B order-service.jar --file App/order-service/pom.xml
+      #run: mvn App/orders-service/pom.xml --batch-mode --update-snapshots order-service.jar
+      #run: mvn -f App/orders-service/pom.xml clean package
       - name: Ruta
         run: pwd
       - name: Copy de jar
