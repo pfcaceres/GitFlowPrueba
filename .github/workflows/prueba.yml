@@ -32,11 +32,12 @@ jobs:
           java-version: '11'
           distribution: 'adopt'
       - name: Build with Maven
-        run: mvn -f App/orders-service/pom.xml clean package
+         run mvn --batch-mode --update-snapshots order-service.jar
+      #  run: mvn -f App/orders-service/pom.xml clean package
       - name: Ruta
         run: pwd
       - name: Copy de jar
-        run: mkdir jarFile && cp App/orders-service/target/*.jar jarFile
+        run: mkdir jarFile && cp App/orders-service/target/order-service.jar jarFile
       - uses: actions/upload-artifact@v3
         with:
           name: order-service.jar
