@@ -42,4 +42,4 @@ jobs:
           name: orders-service.jar
           path: jarFile
   test:
-       runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
