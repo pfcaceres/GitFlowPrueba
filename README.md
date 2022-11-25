@@ -1,20 +1,22 @@
 # OBLIGATORIO - Certificado DEVOPS - ORT - S2 2022
 
-## Grupo 2022S2-GT-PFCACERES-MGARCIA
-### Integrantes
-####  Pablo Caceres
-####  Mario Garcia
-
-
+### Grupo: 2022S2-GT-PFCACERES-MGARCIA
+-  Pablo Caceres
+-  Mario Garcia
 
 ## Problema
 
-## Definción de Workflow 
 
-## Etapas CI/CD
+## Solucion Propuesta
 
-## Herramientas utilizadas
+- Definción de Repositorios
+  - Desarrollo - GitFlow
+  - DEVOPS - TrunkBase
 
-## Informe de analisis de codigo estático
+- Etapas CI/CD
+ 
+- Herramientas utilizadas
 
-## Informe de test de la aplicación desplegada
+- Informe de analisis de codigo estático
+
+- Informe de test de la aplicación desplegada
