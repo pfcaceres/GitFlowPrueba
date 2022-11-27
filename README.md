@@ -11,7 +11,7 @@
 
 - Definción de Repositorios
   - Desarrollo - GitFlow
-  - DEVOPS - TrunkBase
+  - Devops - TrunkBase
 
 - Etapas CI/CD
  
